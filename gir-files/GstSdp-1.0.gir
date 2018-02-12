@@ -1652,7 +1652,11 @@ keys.</doc>
         <type name="utf8" c:type="gchar*"/>
       </field>
     </record>
-    <record name="SDPMedia" c:type="GstSDPMedia">
+    <record name="SDPMedia"
+            c:type="GstSDPMedia"
+            glib:type-name="GstSDPMedia"
+            glib:get-type="gst_sdp_media_get_type"
+            c:symbol-prefix="sdp_media">
       <doc xml:space="preserve">The contents of the SDP "m=" field with all related fields.</doc>
       <field name="media" writable="1">
         <doc xml:space="preserve">the media type</doc>
