@@ -9,15 +9,6 @@ pkg-config = "0.3.7"
 bitflags = "1.0"
 libc = "0.2"
 
-[dependencies.gio-sys]
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.glib-sys]
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.gobject-sys]
-git = "https://github.com/gtk-rs/sys"
-
 [dependencies.gstreamer-net-sys]
 path = "../gstreamer-net-sys"
 
@@ -29,6 +20,15 @@ path = "../gstreamer-sdp-sys"
 
 [dependencies.gstreamer-sys]
 path = "../gstreamer-sys"
+
+[dependencies.gio-sys]
+git = "https://github.com/gtk-rs/sys"
+
+[dependencies.glib-sys]
+git = "https://github.com/gtk-rs/sys"
+
+[dependencies.gobject-sys]
+git = "https://github.com/gtk-rs/sys"
 
 [features]
 dox = []
